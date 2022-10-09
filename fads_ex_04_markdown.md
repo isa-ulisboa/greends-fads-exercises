@@ -148,6 +148,8 @@ current markdown file:
 ```
 ![Logo do ISA](./images/LogoISA.png)
 
+Can you explain the path to the image?
+
 ## 7. Add Tables
 
 It is also possible to create tables in Markdowm. Simple use `|` to set the columns

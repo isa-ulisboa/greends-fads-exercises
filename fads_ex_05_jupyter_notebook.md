@@ -12,9 +12,10 @@ computing documents using multiple programming languages. It uses the file forma
 `.ipynb`, which combines text (in markdown format), code, and outputs in a single 
 file. The code can be in more that 40 different languages (R, Julia, Scala, etc...), 
 although in this course we will use **python**. Jupyter Notebook also integrates 
-well with big data tools (e.g. Apache Spark). The `.ipynb` files are, internally text files with a **JSON** format.
+well with big data tools (e.g. Apache Spark). The `.ipynb` files are, internally 
+text files with a **JSON** format.
 
-The fact it is interactive makes it very convinient to develop data science analysis.
+The fact it is interactive makes it very convenient to develop data science analysis.
 After running, you can export the notebook as a report to PDF or HTML.
 
 The cluster of Jupyter tools include other tools:
@@ -30,7 +31,8 @@ Jupyter Notebooks are a combination of three types of components:
 - output components, that display outputs of the code execution. It can contain 
 text outputs, tables, charts, pictures, etc.
 
-You can add many as cells as you want to your Notebook. At the moment you add a cell, you set it as being of type code or Markdown.
+You can add many as cells as you want to your Notebook. At the moment you add a 
+cell, you set it as being of type code or Markdown.
 
 ## Workflow in Jupyter Notebook
 
@@ -42,11 +44,11 @@ current working directory (the one you run the session). You can use the Dashboa
 - create, duplicate, rename, download and delete files
 - create, duplicate, rename, shutdown, download and delete notebooks
 - upload files
-- check and change the status of notebooks: running, shuthdown
+- check and change the status of notebooks: running, shutdown
 
 ### Jupyter Notebook
 
-On the Dashboard, as mentioned, you can create Notebooks withh the option 
+On the Dashboard, as mentioned, you can create Notebooks with the option 
 `New --> Python 3 (ipykernel)`. This will open a new tab in the browser with the 
 new notebook named `Untitled`. The working windows of the new Notebook includes 
 the menu, the toolbar and the working area. It is, at this stage, ready to run 
@@ -56,23 +58,24 @@ options, and the outputs.
 
 **Code cells** start with empty square brackets `[]`on the left. This means that the 
 code of this cell was not run yet. To run, you can place the cursor on the cell, 
-and the press CTRL+ENTER. A number will apear on the square brackets. This number
+and the press CTRL+ENTER. A number will appear on the square brackets. This number
 will be sequential between code cells, indicating the sequence you run the code
-cells. If the code run has output, this will apear bellow the run cell.
+cells. If the code run has output, this will appear bellow the run cell.
 
-**Markdown cells** can be edited, to add your text. After that, to render to formated
+**Markdown cells** can be edited, to add your text. After that, to render to formatted
 text, also press CTRL+ENTER. To edit again, simple click twice on the text, to 
 enter the edit mode again.
 
 ## Run your first Notebook. 
 
 We will proceed our exercise now so that you run your first Jupyter Notebook in 
-your local computer. We will use a pre-created example on health, that creates a model to predict breast cancer. In this example, you will not understand the code
-and algoritms you will run, and this is OK. You will learn later in the master
+your local computer. We will use a pre-created example on health, that creates 
+a model to predict breast cancer. In this example, you will not understand the code
+and algorithms you will run, and this is OK. You will learn later in the master
 how to create and interpret these models. The purpose of this exercise is only
 to learn how to start and use Jupyter Notebooks.
 
-### Prerequesites
+### Pre-requesites
 
 To be able to run Jupyter in our computer, you need to have:
 - python installed
@@ -120,7 +123,7 @@ running it, we need to download the data file.
 resource for data scientists, including many real data sets, and complete notebooks
 with analysis, models, etc, made by the community and freely available to reuse.
 You can use Kaggle to seek for examples and guidance, and can even use the platform
-to run your analaysis.
+to run your analysis.
 
 To use **Kaggle**, you will need to register at the sire. After you have done that, go to
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data and download 
@@ -129,12 +132,12 @@ the csv data file. Place the file inside the `raw-data` folder you created befor
 
 ### 3. Run your first notebook
 
-1. Now your should have all things set to run your Jupyter Notebbok. In the Dashboard,
+1. Now your should have all things set to run your Jupyter Notebook. In the Dashboard,
 click on the `example-health.ipynb`. This will open a new browser tab.
 
 2. Read the introductory text of the notebook, that explains the problem. After 
 that, run each code cell sequentially (you can use CTRL+ENTER, or SHIFT+ENTER to 
-run and jump to the next cell), and check the output and explainations.
+run and jump to the next cell), and check the output and explanations.
 
 ### 4. Run in Google Colab
 
@@ -149,7 +152,7 @@ You can run the example also in Google Colab.
 ## Wrap up
 In this exercise, you learned about Jupyter Notebook:
 - What is Jupyter Notebooks
-- The strucure and components of Jupyter Notebook
+- The structure and components of Jupyter Notebook
   - code cells
   - markdown cells
 - Start Jupyter Notebook

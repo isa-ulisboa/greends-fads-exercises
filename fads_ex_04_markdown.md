@@ -48,7 +48,7 @@ with the command:
 
 ## 2. Format Titles (headings)
 To set titles, you use the the cardinal character: `#`. The number of cardinals 
-define the level of the title. 
+defines the level of the title. 
 ```
 # This is a main (first level) title
 ```
@@ -169,6 +169,17 @@ There are many online tools to convert CSV files to Markdown and vice-versa.
 
 ## 8. Explore more with a cheat sheet
 To check more options, go online and check a [cheat sheet](https://www.markdownguide.org/cheat-sheet/).
+
+## Wrap up
+In this exercise, we learned 
+- what is Markdown, and what's for
+- the very basics of quick mark up with Markdown including:
+  - headings
+  - bold and italic type faces
+  - lists
+  - links
+  - images
+  - tables
 
 
 # References

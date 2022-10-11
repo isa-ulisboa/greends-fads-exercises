@@ -94,41 +94,42 @@ $ pip3 install jupyter
 
 ### 1. Start your Jupyter environment
 
-1. Open a bash terminal and change directory to the place you want your jupyter
+1. Open a bash terminal and change directory to the place you want your jupyter 
 files to be. It's a good idea to create a new directory for this.
 
 2. First, download the example. In the terminal, run:
-```
-$ curl https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example01-breast-cancer/example-health.ipynb > example-health.ipynb
-```
-This will create a new local file named example-health.ipynb
+   ```
+   $ curl https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example01-breast-cancer/example-health.ipynb > example-health.ipynb
+   ```
+   This will create a new local file named `example-health.ipynb`.
 
-2. Now you can open your Jupyter session. Run:
+3. Now you can open your Jupyter session. Run:
    ```
    $ jupyter notebook
    ```
-   A new browser window will open with the Jupyter Notebook Dashboard at the address
-http://localhost:8888/tree.  
-The terminal now shows logs of the jupyter session, so you can not use it for 
-interacting with the system. You will use it to end the jupyter session, using CTRL+C.
+   A new browser window will open with the Jupyter Notebook Dashboard at the 
+   address http://localhost:8888/tree. 
+   The terminal now shows logs of the jupyter session, so you can not use it for 
+   interacting with the system. You will use it to end the jupyter session, using CTRL+C.
+
+   In the Dashboard, you will find the just created `example-health.ipynb` file.
 
 ### 2. Download data from Kaggle
 
-1. In the Dashboard, you will find the just created `example-health.ipynb` file.
-Let's prepare our environment to contain raw data. Using the Dashboard, create a
-new folder with the name `raw-data`. This folder will contain  But before 
-running it, we need to download the data file. 
+**Kaggle** is an excellent resource for data scientists, including many real data 
+sets, and complete notebooks with analysis, models, etc, made by the community 
+and freely available to reuse. You can use Kaggle to seek for examples and guidance, 
+and can even use the platform to run your analysis. To use **Kaggle**, you will 
+need to register [at the site](https://www.kaggle.com). 
 
-2. To get the data file, we will use **Kaggle**. **Kaggle** is an excellent 
-resource for data scientists, including many real data sets, and complete notebooks
-with analysis, models, etc, made by the community and freely available to reuse.
-You can use Kaggle to seek for examples and guidance, and can even use the platform
-to run your analysis.
+Now, let's prepare our environment to contain raw data. 
 
-To use **Kaggle**, you will need to register at the sire. After you have done that, go to
+1. Using the Notebook Dashboard, create a new folder with the name `raw-data`. This 
+folder will contain  But, before running it, we need to download the data file. 
+
+2. Go to
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data and download 
-the csv data file. Place the file inside the `raw-data` folder you created before. 
-
+the csv data file. Place the downloaded file inside the `raw-data` folder you created before. 
 
 ### 3. Run your first notebook
 

@@ -32,7 +32,7 @@ for example, *fads-ex-04*
 4. `cd` to inside the new created directory
 5. Create the new empty file with the name `markdown-tutorial.md`:
    ````
-   $ touch markdown.tutorial.md
+   $ touch markdown-tutorial.md
    ````
 6. Confirm that the new file was created, but it is empty, using `ls -l`
 7. If Visual Studio Code is in your path, you can open it directly from the bash

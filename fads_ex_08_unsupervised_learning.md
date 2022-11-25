@@ -13,7 +13,7 @@ keeping the common variance between variables - **dimensionality reduction**
 
 ## Description of the exercise
 
-In this exercise you will in Jupyter Notebook two analysis of unsupervised
+In this exercise you will do in Jupyter Notebook two analysis of unsupervised
 learning. The goal is to provide a very general overview of the steps involved 
 in the analysis, without the need to understand all the details. The learning
 of the methods will be done in the Machine Leaning course, latter in the master

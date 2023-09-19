@@ -6,7 +6,7 @@ This is a learning/reading exercise, with several tasks. You should repeat all t
 
 ## Conventions of this document
 
-In all commands, "$" indicates that it should be run at the operating system terminal. But "$" should not be included in the instruction.
+In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
 
 ## Introduction
 
@@ -19,8 +19,10 @@ Because of this, you should be able to execute some basic operations using the C
 - create files and directories
 - copy, delete and rename files and directories 
 - identify the current location
+- identify the path to a file
 - run a python script
 - reuse commands
+- connect to remote computers
 
 ## Using the terminal with bash
 
@@ -29,8 +31,8 @@ Because of this, you should be able to execute some basic operations using the C
 One of the reasons you should use the terminal is because it will speed up greatly your workflow in data science projects. You might find strange this statement, considering that in the terminal you need to write your commands by hand. And some of these seem endless...
 
 However, two practices speed up the use of the terminal, and sometimes even make it easier to use:
-- pressing the TAB key after writing a few letters of a command or a file will allow the system to autocomplete or show options of what you are trying to write
-- you can use the *history* to reuse a command written before. You just need to press the upper arrow in your keyboard until you find what you need.
+- pressing the ***TAB key*** after writing a few letters of a command or a file will allow the system to autocomplete or show options of what you are trying to write
+- you can use the ***history*** to reuse a command written before. You just need to press the ***upper arrow*** in your keyboard until you find what you need.
 
 Another reason to use the terminal, particularly in data science projects, is that you have an higher power of parameterization in running scripts. Many scripts can only be run from the command line, because no graphic interfaces are created. Also programmers make a lot of customizations available through parameters in the command line, but they do not translate these into graphic interfaces. Even if you're using a graphic interface as Jupyter Notebook or R-Studio to run your data science scripts, command are essentially run as it would in the command line.
 
@@ -44,14 +46,14 @@ If your system is linux or macOS, you most probably do not need to do anything t
 ```
 $ ls
 ```
-The result should be a list of files in the current directory.
+The result should be a list of files in the current directory (or folder).
 
-If you're running Windows, we have two options:
+If you're running Windows, you have two options:
 - find and run the equivalent command to bash for Command (CMD) shell
-- install bash to run commands as you would do in linux or macOS.
+- install ***bash*** to run commands as you would do in linux or macOS.
 
 Bash can be installed as a part of [Git installation](https://git-scm.com/download/win).
-At the installation steps, make sure to select the following options:
+At the installation steps of Git, make sure to select the following options:
 - 5th installation screen, **Adjust your PATH environment**, leave **“Git from the command line and also from 3rd party software”**
 - 8th installation screen, **Configuring the line ending conversions**, leave **“Git from the command line and also from 3rd party software”**
 - 9th installation screen, **Configuring the terminal emulator to use with Git Bash**, select **“Use Windows’ default console window”**
@@ -125,7 +127,7 @@ $ ls -lh
 $ ls -lh Documents
 $ ls -lisa
 ```
-The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents, which is a subdirectory of the current directory. The last command will list all files, including the ones hidden, which filenames start with a point (.)
+The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents directory, which is a subdirectory of the current directory (adjust the name of the directory to your particular case). The last command will list all files, including the ones hidden, which filenames start with a point (.)
 
 ### **C**hange the current Working **D**irectory (`cd`)
 
@@ -133,8 +135,8 @@ The first uses the parameter h (for human) to indicate the size of files in a hu
 ```
 $ cd Documents
 ```
-There is no output, except that the prompt of the terminal will indicate the directory where we are changed.
-Confirm that the path changes, with `pwd`|`cd`
+There is no output, except that the prompt of the terminal will indicate the directory where we are, changed.
+Confirm that the path changes, with `pwd` for bash or `cd` for CMD.
 ```
 $ pwd
 /Users/rfigueira/Documents
@@ -168,7 +170,7 @@ $ pwd
 ```
 
 ### Create a new directory (`mkdir`)
-Change to our home directory
+Change to your home directory
 ```
 $ pwd
 /Users
@@ -194,7 +196,7 @@ Documents	Library		Music		Public		project-1
 
 ### Full and relative paths
 
-It is important to note that a filename, for the machine, is always composed by its full path - sequence of directories from the root level of our drive up to the current location of the file. Another important notion is that directories are also files that have a flag indicating it is a directory.
+It is important to note that a filename, for the machine, is always composed by its full path - sequence of directories from the root level of your drive up to the current location of the file. Another important notion is that directories are also files that have a flag `d` indicating it is a directory.
 
 Therefore, we can refer to a file using its full path, for example:
 ```

@@ -1,12 +1,12 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 2 - Use Git and GitHub to manage and share your code versions
+# Exercise 2 - Use Git and GitHub to manage and share your code, including versions
 
 This is a learning/reading exercise, with several tasks. You should repeat and run all the examples given in your system, **adapted to your case**, and check that you obtain equivalent results.
 
 ## Conventions of this document
 
-In all commands, "$" indicates that it should be run at the operating system terminal. But "$" should not be included in the command.
+In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
 
 The commands in this document assumes a bash terminal, but you can adapt the commands to CMD terminal.
 
@@ -16,7 +16,7 @@ Developing a data science project which combines data, code and analysis means t
 
 Version control is a system to manage versions by **tracking and managing changes in your files**. A version control system maintains a record of changes to code and other content. It also allows us to revert changes to a previous point in time. Additionally, it allows to collaborate on a single project, merging contributions from different collaborators.
 
-One of the systems that allows to achieve these goals is **Git**. **Git** uses a distributed version control model. This means that it can manage not only local versions of your code and files, but also copies in other locations, as an online repository. In our course, we will use GitHub as the online repository
+One of the systems that allows to achieve these goals is **Git**. **Git** uses a distributed version control model. This means that it can manage not only local versions of your code and files, but also copies in other locations, as an online repository. In our course, we will use **GitHub** as the online repository
 
 This exercise gives a very brief introduction to **git**, mainly to ensure that you have properly setup your environment and can execute the most basic operations. However, if you want to explore more, you can read these tow online resources, that were used for inspiration:
 - [Version Control with Git](https://swcarpentry.github.io/git-novice/), The Carpentries
@@ -31,14 +31,16 @@ Make sure you have:
 
 ## Set up Git
 
-After the installation of **Git**, we need to inform who we are. This will be associated to your contributions, and also facilitate the use of GitHub.
+After the installation of **Git**, we need to inform who we are. This will be associated to your code contributions, and also facilitate the use of GitHub.
 
-You will provide two global configurations to the system with the following commands (in a bash terminal)
+You will provide two global configurations to the system with the following commands (in a bash terminal):
+
+*(Adjust the following commands to your case)*
 ```
 $ git config --global user.name "Rui Figueira"
 $ git config --global user.email "ruifigueira@isa.ulisboa.pt"
 ```
-Adjust the commands to your case.
+
 
 You can check that config worked:
 ```
@@ -51,7 +53,7 @@ ruifigueira@isa.ulisboa.pt
 
 ## Create a local repository
 
-Let's imagine our first data science project. It will be a simple project, with the following files, inside the directory `my-first-project`:
+Let's imagine our first data science project. It will be a simple project, with the following four files, inside the directory `my-first-project`:
 
 ```
 /my-first-project
@@ -60,7 +62,7 @@ Let's imagine our first data science project. It will be a simple project, with 
     temp-average.py
     temp-doc.txt
 ```
-Create the directory and files in your system. Then, open a terminal and change the working directory to *my-first-project*. In the terminal, we can check if this directory is a git repository, with the `git status` command:
+Create the directory using `mkdir` and files using `touch` in your system, using a bash terminal. Then, change the working directory to *my-first-project*, using `cd`. In the terminal, we can check if this directory is a git repository, with the `git status` command:
 ````
 $ git status
 fatal: not a git repository (or any of the parent directories): .git
@@ -103,7 +105,7 @@ $ git add temp-data.csv
 $ git add temp-average.py
 $ git add temp-doc.txt
 ```
-We could have done the `git add` of all files at once, if we did `git add .`
+We could have done the `git add` of all files at once, if we did `git add .` In the case you wrongly added a file to the repository, you can undo the `git add` using `git reset <file>`, or using `git rm --cached <file>`.
 
 Check the current status:
 ```
@@ -131,7 +133,7 @@ $ git commit * -m "initial commit"
 ```
 Read the response. It indicates that the commit was done to the **main** branch, and included four files.
 
-The next step is to `push` to an online repository or a server. But we will do this latter, with a repository first created online and copied to our system.
+The next step is to `push` to an online repository or a server. But we will do this later, with a repository first created online and copied to our system.
 
 ## Create a repository in GitHub
 

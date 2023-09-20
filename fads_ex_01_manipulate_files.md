@@ -323,7 +323,8 @@ $ ls
 Desktop		Downloads	Movies		Pictures	example.txt
 Documents	Library		Music		Public
 ```
-It removes all the directories which name starts with *project-*, wherever it contains after that. This is very powerful, but also very dangerous. 
+It removes all the directories which name starts with *project-*, wherever it 
+contains after that. This is very powerful, but also very dangerous. 
 
 In CMD, use (`rmdir`)
 ```
@@ -331,7 +332,8 @@ $ rmdir project-1
 ```
 
 ### Create text files (`touch`)
-It is very handy to create an empty file, for example, a README.md, to edit with documentation. This can be done with the `touch`command:
+It is very handy to create an empty file, for example, a README.md, to quickly create documentation. 
+This can be done with the `touch`command:
 ```
 $ touch README.md
 ```
@@ -345,7 +347,8 @@ This will open notepad for us, where we can save the file.
 
 In this exercise, we had a quick introduction to our terminal and commands to do several tasks:
 - `pwd` (bash) od `cd` (CMD) - show full path to your current working directory.
-- `ls` (bash) or `dir` (CMD) - list content - files and directories - of a directory. Can be of your current directory, or another, if you give a path and name of directory
+- `ls` (bash) or `dir` (CMD) - list content - files and directories - of a directory. 
+Can be of your current directory, or another, if you give a path and name of directory
 - `cd` - change directory.
 - `mkdir` - create directories.
 - `cp` (bash) or `copy` (CMD) - copy files.

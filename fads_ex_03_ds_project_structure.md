@@ -70,9 +70,9 @@ which are easy to identify in a routine.
 
 ## Document your project
 
-In addition to the documentation that you include inside your script files, you should create documents that include help, options, parameters and decisions. These files should be stored in the *documentation* directory, with a name that make them easy to link to the data, tool or code they refer to. These documentation files should be written in text, possibly in markdown format.
+In addition to the documentation that you include inside your script files, you should create documents that include help, options, parameters and decisions. These files should be stored in the *documentation* directory, with a name that make them easy to link to the data, tool or code they refer to. These documentation files should be written in text, possibly in *markdown* format.
 
-However, its important to create, at the top level directory, a documentation file that guide the users (and yourself) about the structure of the our project, and how to start. This file is normally called README. For example, GitHub uses this file as the primary documentation file that displays at the home of a repository. This file can be a text (*txt*) or markdown (*md*) file. We will discuss markdown in a latter class of the course.
+However, its important to create, at the top level directory, a documentation file that guide the users (and yourself) about the structure of the our project, and how to start. This file is normally called **README**. For example, GitHub uses this file as the primary documentation file that displays at the home of a repository. This file can be a text (*txt*) or markdown (*md*) file. We will discuss markdown in a latter class of the course.
 
 Sometimes, it is also useful to have one readme file per subdirectory, particularly in large projects.
 

@@ -34,7 +34,7 @@ However, two practices speed up the use of the terminal, and sometimes even make
 - pressing the ***TAB key*** after writing a few letters of a command or a file will allow the system to autocomplete or show options of what you are trying to write
 - you can use the ***history*** to reuse a command written before. You just need to press the ***upper arrow*** in your keyboard until you find what you need.
 
-Another reason to use the terminal, particularly in data science projects, is that you have an higher power of parameterization in running scripts. Many scripts can only be run from the command line, because no graphic interfaces are created. Also programmers make a lot of customizations available through parameters in the command line, but they do not translate these into graphic interfaces. Even if you're using a graphic interface as Jupyter Notebook or R-Studio to run your data science scripts, command are essentially run as it would in the command line.
+Another reason to use the terminal, particularly in data science projects, is that you have an higher power of parameterization in running scripts. Many scripts can only be run from the command line, because no graphic interfaces are created. Also programmers make a lot of customizations available through parameters in the command line, but they do not translate these into graphic interfaces. Even if you're using a graphic interface as Jupyter Notebook or R-Studio to run your data science scripts, command are essentially run as it would be in the command line.
 
 It is, therefore, an important skill being able to manage files and run scripts from the terminal.
 
@@ -112,7 +112,7 @@ drwx------+  4 rfigueira  staff   128 Sep 17 18:03 Pictures
 drwxr-xr-x+  4 rfigueira  staff   128 Sep  7 14:42 Public
 -rw-r--r--   1 rfigueira  staff    20 Sep 26 21:37 example.txt
 ```
-In this case, the output contains more information, including if the item is a directory or a file (the **d** flag), the permissions, the owner and the group the file belongs to, the size in bytes, the last creation or editing date and the name of file. 
+In this case, the output contains more information, including if the item is a file or a directory (containing the **d** flag), the permissions (r - read, w - write, x - execute), the owner and the group that own the file, the size in bytes, the last creation or editing date and the name of file. 
 
 You can list all files that have a certain pattern in the name. For example, all files with the extension *.txt*
 ```
@@ -127,7 +127,7 @@ $ ls -lh
 $ ls -lh Documents
 $ ls -lisa
 ```
-The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents directory, which is a subdirectory of the current directory (adjust the name of the directory to your particular case). The last command will list all files, including the ones hidden, which filenames start with a point (.)
+The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents directory, which is a subdirectory of the current directory (adjust the name of the directory to your particular case). The last command will list all files, including the hidden files, which filenames start with a point (.)
 
 ### **C**hange the current Working **D**irectory (`cd`)
 

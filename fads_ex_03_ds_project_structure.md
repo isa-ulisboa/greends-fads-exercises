@@ -92,12 +92,13 @@ In summary, in order to have your data science project organized following the b
 
 ## Further reading
 
-You you want to check a more complex data project structure, for inspiration, check [https://github.com/drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science). 
+If you want to check a more complex data project structure, for inspiration, check [https://github.com/drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science). 
 
 ## Task 1. 
 Create a new structure for your data project as a template, with the necessary directories:
+- use the proposed layout for the structure in the blog post [Best Practices For Data Science Project Workflows and File Organizations](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations)
 - create using the shell terminal / command line
-   - do not forget to include necessary readme files
+   - do not forget to include necessary readme files, because empty directories are not added to the repository
 - sync your newly create structure with a GitHub repository
 
 ## Wrap-up

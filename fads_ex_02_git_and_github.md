@@ -33,7 +33,7 @@ Make sure you have:
 
 After the installation of **Git**, we need to inform who we are. This will be associated to your code contributions, and also facilitate the use of GitHub.
 
-You will provide two global configurations to the system with the following commands (in a bash terminal):
+You will provide two global configurations to the system with the following commands (in a bash terminal. In Windows, use the Git Bash terminal):
 
 *(Adjust the following commands to your case)*
 ```
@@ -57,7 +57,6 @@ Let's imagine our first data science project. It will be a simple project, with 
 
 ```
 /my-first-project
-    README.md
     temp-data.csv
     temp-average.py
     temp-doc.txt
@@ -78,7 +77,6 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        README.md
         temp-average.py
         temp-data.csv
         temp-doc.txt
@@ -100,7 +98,6 @@ The use of git implies three important steps of version control:
 
 We can add the files in our directory to the tracking system, i.e., **stage** the files:
 ```
-$ git add README.md
 $ git add temp-data.csv
 $ git add temp-average.py
 $ git add temp-doc.txt
@@ -137,7 +134,8 @@ The next step is to `push` to an online repository or a server. But we will do t
 
 ## Create a repository in GitHub
 
-We are going to create a repository in GitHub, creating a fork of an existing repository. Login to GitHub, go to [https://github.com/isa-ulisboa/greends-fads-first-project](https://github.com/isa-ulisboa/greends-fads-first-project) and fork the repository. The fork of this repository will be added to your account.
+We are going to create a repository in GitHub, creating a fork of an existing repository. Login to GitHub, go to [https://github.com/isa-ulisboa/greends-fads-first-project](https://github.com/isa-ulisboa/greends-fads-first-project) and fork the repository. The fork of this repository will be added to your account. This new repository in your GitHub account will be in the URL 
+`https://github.com/<YOUR GITHUB USERNAME>/greends-fads-first-project`
 
 After this, we can copy the repository to your local system, doing `clone`. 
 First, lets choose the directory to where we want to clone the repository. In this case, it should be one level up to the directory *my-first-project* we created before:
@@ -150,10 +148,11 @@ $ cd ..
 $ pwd
 /Users/rfigueira
 ```
-Go to GitHub and copy the link to clone the *greends-fads-first-project* we forked, and run in the terminal:
+Go to GitHub and copy the link to clone the *greends-fads-first-project* you forked to your account, and run in the terminal (*replace the in the URL address your username*):
 ```
-$ git clone https://github.com/isa-ulisboa/greends-fads-first-project.git
+$ git clone https://github.com/<YOUR GITHUB USERNAME>/greends-fads-first-project.git
 ```
+
 In your system, a new directory named *greends-fads-first-project* will be created.
 
 ## Update your repository and push to GitHub
@@ -188,11 +187,11 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 **Questions / Tasks**
 
-- Can you explain the copy command used above?
+2.1. Can you explain the `copy` command used above?
 
-- Can you explain why, in this case, we did not have to do `git init`?
+2.2. Can you explain why, in this case, we did not have to do `git init`?
 
-- Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+2.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
 
 After this, the git status should give the following status:
 ```

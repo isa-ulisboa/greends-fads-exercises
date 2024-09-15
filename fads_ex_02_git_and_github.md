@@ -113,7 +113,6 @@ No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   document.csv
         new file:   temp-average.py
         new file:   temp-data.csv
         new file:   temp-doc.txt
@@ -123,7 +122,6 @@ The next step is to commit the files. This will create a new version of the repo
 $ git commit * -m "initial commit"
 [main (root-commit) 4498b16] initial commit
  4 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 document.csv
  create mode 100644 temp-average.py
  create mode 100644 temp-data.csv
  create mode 100644 temp-doc.txt
@@ -166,32 +164,36 @@ $ cd greends-fads-first-project
 $ pwd
 /Users/rfigueira/greends-fads-first-project
 
-$ cp ../my-first-project/* .
+$ cp ../temp-* .
 
 $ ls
-README.md	temp-average.py	temp-data.csv	temp-doc.txt
+README.md		quote_with_typos.md	temp-data.csv
+original_quote.md	temp-average.py		temp-doc.txt
 
 $ git status
 On branch main
-
-No commits yet
+Your branch is up to date with 'origin/main'.
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        README.md
-        temp-average.py
-        temp-data.csv
-        temp-doc.txt
+
+	temp-average.py
+	temp-data.csv
+	temp-doc.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 **Questions / Tasks**
 
-2.1. Can you explain the `copy` command used above?
+Open the file `temp-doc.txt` that is inside the folder greends-fads-first-project, with VS Code, or your text editor, and copy and answer the following questions: 
+
+2.1. Can you explain the copy (`cp ../temp-* .`) command used above?
 
 2.2. Can you explain why, in this case, we did not have to do `git init`?
 
 2.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+
+Don't forget to save the file.
 
 After this, the git status should give the following status:
 ```
@@ -206,7 +208,7 @@ Now, we can push our changes to the original repository. The generic command has
 ```
 $ git push origin main
 ```
-The terminal will ask for your GitHub username and password. In this case, the password is your Personal Access Token that you should create at your GitHub account at [https://github.com/settings/tokens](https://github.com/settings/tokens).
+The terminal will ask for your GitHub username and password. In this case, the password is your Personal Access Token that you should create at your GitHub account at [https://github.com/settings/tokens](https://github.com/settings/tokens). You can also use VS Code to push your code to GitHub. 
 
 After the `push` command completes, go to your repository in the browser and confirm the changes.
 

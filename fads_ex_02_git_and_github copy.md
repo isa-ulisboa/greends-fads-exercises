@@ -1,6 +1,6 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 2 - Use Git and GitHub to manage and share your code, including versions
+# Exercise 3 - Collaborate with GitHub and manage branch merges
 
 This is a learning/reading exercise, with several tasks. You should repeat and run all the examples given in your system, **adapted to your case**, and check that you obtain equivalent results.
 
@@ -13,6 +13,10 @@ In all commands, `$` indicates that it should be run at the operating system ter
 The commands in this document assumes a bash terminal, but you can adapt the commands to CMD terminal.
 
 ## Introduction
+
+Managing a data science project in a team frequently requires that several members collaborate in the same component of the project. If this is on a relational database, the DBMS manages possible conflicts caused by simultaneous access to the same table or the same record by two users. In the code component of the project, it is also important that the team code project collaborate, to speed up the creation of code. This means that, many time, several members will edit the same code files. 
+
+Git and GitHub provides the perfect environment to manage these situations. Git, as seen before, manages versions of a file. An edit to the same file by two people can, in this sense, be interpreted as the creation of two versions of the same file, that needs to be merged. GitHub, on the other hand, provides an online platform tho share code between the team members.   
 
 Developing a data science project which combines data, code and analysis means that many trial and error actions will happen. Also, creating new components or modules in code might imply changes in existing parts. It is important, however, that you do not break what is working well. This can be ensured by using versions, i.e., making copies of your project to test things, which, if work, can be integrated in the main copy. This can be done through version control.
 

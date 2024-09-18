@@ -1,13 +1,21 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 4 - Create documents with Markdown
+# Exercise 5 - Create documents with Markdown
 
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **15th October 2024**.
+
+## Conventions of this document
+
+In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
+
+The commands in this document assumes a bash terminal (e.g. Git bash), but you can adapt the commands to CMD terminal.
+
 ## Introduction
 
-Markdown [1] is a simple markup language to create formated text using a plain text editor.
+Markdown [1] is a simple markup language to create formatted text using a plain text editor.
 Text written in Markdown is easy to read because you can apply formats to titles, 
 subtitles, ordered and unordered lists, bold and italic type faces, tables, etc. 
 The syntax of Markdown is very simple and easy to learn and use. It will also speed 
@@ -30,12 +38,13 @@ an empty file in bash
 3. Create a new directory for this exercise with the command `mkdir`. Name it,
 for example, *fads-ex-04*
 4. `cd` to inside the new created directory
-5. Create the new empty file with the name `markdown-tutorial.md`:
+5. Initialize it as a Git repository
+6. Create the new empty file with the name `markdown-tutorial.md`:
    ````
    $ touch markdown-tutorial.md
    ````
-6. Confirm that the new file was created, but it is empty, using `ls -l`
-7. If Visual Studio Code is in your path, you can open it directly from the bash
+7. Confirm that the new file was created, but it is empty, using `ls -l`
+8. If Visual Studio Code is in your path, you can open it directly from the bash
 with the command:
    ```
    $ code markdown-tutorial.md
@@ -47,7 +56,7 @@ with the command:
 ``CTRL+k`` and then `v`.
 
 ## 2. Format Titles (headings)
-To set titles, you use the the cardinal character: `#`. The number of cardinals 
+Add titles to the file. To set titles, you use the the cardinal character: `#`. The number of cardinals 
 defines the level of the title. 
 ```
 # This is a main (first level) title
@@ -65,6 +74,7 @@ defines the level of the title.
 ## This is a third level title
 
 ## 3. Create emphasis
+Add italics and bold faces to the file.
 You can use **bold** type face or *italic* to give empahsis to your text. This 
 is also very simple. To format with bold, use two asterists `*` to mark the start
 and end of the bold text:
@@ -87,7 +97,7 @@ Sometimes, you want to cite someones' text. For that you use ``blockquote``
 > text blockquote
 
 ## 4. Create lists
-To create ordered lists, you simply, place a number and a point before the item:
+Add lists to the file. To create ordered lists, you simply, place a number and a point before the item:
 ```
 1. Item one
 2. Item two
@@ -109,7 +119,7 @@ And, if the list in not ordered (with bullets), the use a slash `-`
 - Item three
 
 ## 5. Addind code
-Sometimes, it is good to highlight code, so that the reader understands that it 
+Add code to the file. Sometimes, it is good to highlight code, so that the reader understands that it 
 should be written as it is shown in the terminal or program. The code can be 
 highlighted in line with the text:
 ```
@@ -131,7 +141,7 @@ def printMyName(name):
    print(a)
 ```
 ## 6. Add links and images
-Sometimes, you may want to include links to other documents. This can be down as the
+Add images and links to the file. Sometimes, you may want to include links to other documents. This can be down as the
 following:
 ```
 [Markdown Guide](https://www.markdownguide.org/)
@@ -152,7 +162,7 @@ Can you explain the path to the image?
 
 ## 7. Add Tables
 
-It is also possible to create tables in Markdowm. Simple use `|` to set the columns
+Add tables to the file. It is also possible to create tables in Markdowm. Simple use `|` to set the columns
 and `---` below the first row with the column headings:
 ```
 |ID| Column 1| Column 2| Column 3|
@@ -167,7 +177,14 @@ and `---` below the first row with the column headings:
 
 There are many online tools to convert CSV files to Markdown and vice-versa.
 
-## 8. Explore more with a cheat sheet
+## 8. Add this file to a new repository in GitHub
+
+Add this markdown file to a new repository in GitHub. See how with the exercise 4 done before.
+
+## 9. Submit your update repository thttps://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 5 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468943). Do this only after you push your local repository to the remote GitHub repository. 
+
+## 10. Explore more with a cheat sheet
 To check more options, go online and check a [cheat sheet](https://www.markdownguide.org/cheat-sheet/).
 
 ## Wrap up

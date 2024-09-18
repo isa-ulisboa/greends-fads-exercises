@@ -105,6 +105,10 @@ git pull
 
 4.4. Add, commit and pull the merged file to the online repository.
 
+## 5. Submit your update repository to review
+>
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 3 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468434). Do this only after you push your local repository to the remote GitHub repository. 
+
 ## Wrap-up
 
 In this exercise, we learned the very basics to use git and GitHub:

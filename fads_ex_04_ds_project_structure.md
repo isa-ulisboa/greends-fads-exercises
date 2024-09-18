@@ -1,14 +1,22 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 3 - Data Science project management best practices
+# Exercise 4 - Data Science project management best practices
 
 This is a reading exercise, with one task in the end.
 
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **15th October 2024**.
+
+## Conventions of this document
+
+In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
+
+The commands in this document assumes a bash terminal, but you can adapt the commands to CMD terminal.
+
 ## Introduction
 
-Developing a data science project is similar to writing an article or book: you will create it for others to read. Therefore, it should follow the best conventions to make it easily understandable by others. But, while in the case of the book, others will only read the final, revised, version, in a data science project, it is many times necessary to let others see to all the steps and components of the project. Furthermore, it is likely that the project is done in collaboration, so every contributor should understand and be able to contribute following the same rules. Adopting best practices and conventions will facilitate the communication and understanding between teams and collaborators.
+Developing a data science project is similar to writing an article or book: you will create it for others to read. Therefore, it should follow the best conventions to make it easily understandable by others. But, while in the case of the book, others will only read the final, revised version, in a data science project, it is many times necessary to let others see to all the steps and components of the project. This is important in terms of reproducibility of the work done. Furthermore, it is likely that the project is done in collaboration, so every contributor should understand and be able to contribute following the same rules. Adopting best practices and conventions will facilitate the communication and understanding between teams and collaborators.
 
-An important notice is that your project might be shared globally. This means that you should avoid, for example, to use settings, keyboard characters, etc, that only apply to a Portuguese keyboard or operating system, particularly in files and directories.
+An important notice is that your project might be shared globally. This means that you should avoid, for example, to use settings, keyboard characters, etc, that only apply to a Portuguese keyboard or operating system, particularly in file names and directories.
 
 ## Organizing a data science project
 
@@ -87,19 +95,41 @@ In summary, in order to have your data science project organized following the b
 - Be consistent when naming files - use lower case
 - Organize your project directories to make it easy to find data, code and outputs
 - Use meaningful (expressive) file and directory Names
-- Document your project with a README file
+- Document your project with a **README.md** file
 - Don’t use proprietary file formats
 
 ## Further reading
 
 If you want to check a more complex data project structure, for inspiration, check [https://github.com/drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science). 
 
-## Task 1. 
+## Task 1. Create project structure
 Create a new structure for your data project as a template, with the necessary directories:
 - use the proposed layout for the structure in the blog post [Best Practices For Data Science Project Workflows and File Organizations](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations)
 - create using the shell terminal / command line
-   - do not forget to include necessary readme files, because empty directories are not added to the repository
-- sync your newly create structure with a GitHub repository
+   - do not forget to include necessary **README.md** files, because empty directories are not added to the repository
+
+## Task 2. Set as Git repository and add remote repository
+
+- inside the main folder of your new project, initialize the project as a git repository, doing in the command line
+```
+$ git init
+```
+- open this project in VS Code. You can open the software from the terminal with the following command
+```
+$ code .
+``` 
+- create in your GitHub account, with the browser interface, a new repository to which this new structure will be added. Call it **project-template**
+- in the new repository created in GitHub, copy the **Code** address for HTTPS protocol
+![alt text](./images/image3.png)
+- in VS Code open in the local project, add the remote repository. To do so, open the menu of the Source control, do Add Remote as shown in the image, and paste the clone address.
+
+![alt text](./images/image2.png)
+- do `git add`, `git commit` and `git pull`, for your README.md files as you usually do
+- the repository should now be sync with the remote at GitHub. Check by going to the browser and doing a refresh
+
+## Task 3. Submit your update repository thttps://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 4 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940). Do this only after you push your local repository to the remote GitHub repository. 
+
 
 ## Wrap-up
 

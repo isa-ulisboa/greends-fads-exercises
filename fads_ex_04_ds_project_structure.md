@@ -127,7 +127,7 @@ $ code .
 - do `git add`, `git commit` and `git pull`, for your README.md files as you usually do
 - the repository should now be sync with the remote at GitHub. Check by going to the browser and doing a refresh
 
-## Task 3. Submit your update repository thttps://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
+## Task 3. Submit your update repository
 > Submit the URL of your forked GitHub repository to Moodle at [Exercise 4 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940). Do this only after you push your local repository to the remote GitHub repository. 
 
 

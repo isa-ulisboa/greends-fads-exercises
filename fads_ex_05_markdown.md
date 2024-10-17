@@ -181,7 +181,7 @@ There are many online tools to convert CSV files to Markdown and vice-versa.
 
 Add this markdown file to a new repository in GitHub. See how with the exercise 4 done before.
 
-## 9. Submit your update repository thttps://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
+## 9. Submit your update repository to https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
 > Submit the URL of your forked GitHub repository to Moodle at [Exercise 5 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468943). Do this only after you push your local repository to the remote GitHub repository. 
 
 ## 10. Explore more with a cheat sheet

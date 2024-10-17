@@ -5,6 +5,9 @@
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **25th October 2024**.
+
+
 ## Introduction
 
 Jupyter Notebook is a opensource web application for creating and sharing interactive
@@ -105,7 +108,7 @@ files to be. It's a good idea to create a new directory for this.
 
 3. Now you can open your Jupyter session. Run:
    ```
-   $ jupyter notebook
+   $ jupyter notebook .
    ```
    A new browser window will open with the Jupyter Notebook Dashboard at the 
    address http://localhost:8888/tree. 
@@ -149,6 +152,10 @@ You can run the example also in Google Colab.
 2. Create a new folder named `raw-data`, and upload the `data.csv` file.
 
 3. Run the notebook cells, as you did in your computer.
+
+## 5. Submit your update repository to https://elearning.ulisboa.pt/mod/assign/view.php?id=476839
+> Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=476839).
+
 
 ## Wrap up
 In this exercise, you learned about Jupyter Notebook:

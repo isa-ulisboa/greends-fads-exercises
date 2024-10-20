@@ -1,9 +1,11 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 7 - Find and use data online
+# Exercise 8 - Find and use data online
 
 This is an exploratory exercise, which should contribute to your portfolio of tools
 for Data Science.
+
+> An exercise submission via Moodle is required once completed. You should submit a markdown file with your responses. The deadline for submissions is **15th November 2024**.
 
 ## Introduction
 
@@ -11,8 +13,8 @@ The availability of data online is comparable to an iceberg. What you see as a
 human can be only a fraction of all the data available. Even when data is not 
 prepared to be served as a web service, it is possible to implement automatic
 scripts (web scraping) that speed you data collection for reuse. But never forget 
-the discussion about licencing that we had on class 06 
-([slides](https://docs.google.com/presentation/d/1Grj-JJERGPorTKxtOcyLAcpAnWwbGHZ-8zXyS8bVnU4/edit?usp=sharing)).
+the discussion about licencing that we had on class 08 
+([slides](https://elearning.ulisboa.pt/mod/page/view.php?id=468437)).
 
 In this exercise, we will learn how to get data available online. We will practice:
 - to identify if data is provided by a web service (an API)
@@ -48,9 +50,11 @@ about an API availability (e.g. Home --> Data --> API)
 | Agri4Cast | https://agri4cast.jrc.ec.europa.eu/DataPortal/ |   |   |   |   |
 | European Environment Agency | https://www.eea.europa.eu/ |   |   |   |   |
 
+Add this table to your markdown report to be submitted by the end of the exercise.
+
 2. (Optional) Repeat the analysis for data catalogues 
 
-If you want, you can explore if the online catalogues of exercise 06 also have API
+If you want, you can explore if the online catalogues of exercise 07 also have API
 services (when appropriate):
 
 - United Nations - UNDATA - http://data.un.org/ 
@@ -81,7 +85,7 @@ The QUALAR (https://qualar.apambiente.pt/) is a web platform of APA, the Portugu
 
 However, it is possible to hack the source code of the webpage to identify that there is an implemented API, and that it can be used to facilitate efficient download of data. 
 
-In Jupyter Notebook, run the notebook [FADS Example02-apis](https://github.com/isa-ulisboa/greends-fads-jupyter/tree/main/example02-apis), that can be downloaded from [here](https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example02-apis/example-api.ipynb) (do ***Save as*** in your browser).
+In Jupyter Notebook, run the notebook [FADS Example02-api](https://github.com/isa-ulisboa/greends-fads-jupyter/tree/main/example02-apis), that can be downloaded from [here](https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example02-apis/example-api.ipynb) (do ***Save as*** in your browser).
 
 When you complete the exercise, answer/discuss the following questions:
 - How can I detect that a web site has hidden data?
@@ -89,6 +93,8 @@ When you complete the exercise, answer/discuss the following questions:
 automatically?
 - What advantages and problems do I have doing web scraping?
 - What are the differences in getting data by between web scraping compared to an API? Which approach do I prefer and why?
+
+Add these responses to your markdown report.
 
 2. Plan a web scraping exercise
 
@@ -98,6 +104,10 @@ Make a plan to scrap the information from this site:
 - Can I do it (legally)? Why?
 - Which items of information (IDs, parameters, etc) are available to use in web scraping?
 
+Add these responses to your markdown report.
+
+## 3. Submit your update repository
+> Share the Google colab and submit the link to Moodle at [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=477245).
 
 ## Wrap up
 In this exercise, you learned about obtaining data from online sources in an automatic way:

@@ -1,11 +1,11 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 5 - Run Data Science workflows in Jupyter Notebook 
+# Exercise 6 - Run Data Science workflows in Jupyter Notebook 
 
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **25th October 2024**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **01st November 2024**.
 
 
 ## Introduction
@@ -78,7 +78,7 @@ and algorithms you will run, and this is OK. You will learn later in the master
 how to create and interpret these models. The purpose of this exercise is only
 to learn how to start and use Jupyter Notebooks.
 
-### Pre-requesites
+### Pre-requisites
 
 To be able to run Jupyter in our computer, you need to have:
 - python installed
@@ -153,7 +153,7 @@ You can run the example also in Google Colab.
 
 3. Run the notebook cells, as you did in your computer.
 
-## 5. Submit your update repository to https://elearning.ulisboa.pt/mod/assign/view.php?id=476839
+## 5. Submit your update repository
 > Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=476839).
 
 

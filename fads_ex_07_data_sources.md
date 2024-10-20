@@ -1,6 +1,6 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 6 - Create your data sources catalogue
+# Exercise 7 - Create your data sources catalogue
 
 This is an exploratory exercise, which should contribute to your portfolio of tools
 for Data Science.

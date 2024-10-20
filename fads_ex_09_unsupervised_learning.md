@@ -1,6 +1,6 @@
 # Fundamentals of Agro-Environmental Data Science
 
-# Exercise 8 - Unsupervised Learning
+# Exercise 9 - Unsupervised Learning
 
 Unsupervised Learning is a class of algorithms to be applied to data to which we 
 do not know the expected output - data records do not contain a *label*. Two main 

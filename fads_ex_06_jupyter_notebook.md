@@ -5,7 +5,7 @@
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **01st November 2024**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **1st November 2024**.
 
 
 ## Introduction

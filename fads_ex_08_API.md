@@ -98,7 +98,7 @@ Add these responses to your markdown report.
 
 2. Plan a web scraping exercise
 
-Visit [SASSCAL WeatherNET](http://www.sasscalweathernet.org/index.php). Explore the details in data for one particular station of your choice.
+Visit [SASSCAL WeatherNET](http://www.sasscalweathernet.org). Explore the details in data for one particular station of your choice.
 
 Make a plan to scrap the information from this site:
 - Can I do it (legally)? Why?
@@ -106,8 +106,8 @@ Make a plan to scrap the information from this site:
 
 Add these responses to your markdown report.
 
-## 3. Submit your update repository
-> Share the Google colab and submit the link to Moodle at [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=477245).
+## 3. Submit your updated table
+> Upload the table in markdown format that you updated in part 1 of this exercise to Moodle's [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=477245).
 
 ## Wrap up
 In this exercise, you learned about obtaining data from online sources in an automatic way:

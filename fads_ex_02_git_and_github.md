@@ -4,6 +4,8 @@
 
 This is a learning/reading exercise, with several tasks. You should repeat and run all the examples given in your system, **adapted to your case**, and check that you obtain equivalent results.
 
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **4th October 2024**.
+
 ## Conventions of this document
 
 In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
@@ -16,6 +18,7 @@ Developing a data science project which combines data, code and analysis means t
 
 Version control is a system to manage versions by **tracking and managing changes in your files**. A version control system maintains a record of changes to code and other content. It also allows us to revert changes to a previous point in time. Additionally, it allows to collaborate on a single project, merging contributions from different collaborators.
 
+One of the systems that allows to achieve these goals is **Git**. **Git** uses a distributed version control model. This means that it can manage not only local versions of your code and files, but also copies in other locations, as an online repository. In our course, we will use **GitHub** as the online repository.
 One of the systems that allows to achieve these goals is **Git**. **Git** was created by the creator of linux, Linus Torvalds, and uses a distributed version control model. This means that it can manage not only local versions of your code and files, but also copies in other locations, as an online repository. In our course, we will use **GitHub** as the online repository
 
 This exercise gives a very brief introduction to **git**, mainly to ensure that you have properly setup your environment and can execute the most basic operations. However, if you want to explore more, you can read these tow online resources, that were used for inspiration:
@@ -29,11 +32,11 @@ Make sure you have:
 - installed **Git** in your system, as indicated in the [GreenDS Welcome-Kit](https://isa-ulisboa.github.io/greends-welcome-kit/)
 - created a personal GitHub account, as indicated in the [GreenDS Welcome-Kit](https://isa-ulisboa.github.io/greends-welcome-kit/) 
 
-## Set up Git
+## 1. Set up Git
 
 After the installation of **Git**, we need to inform who we are. This will be associated to your code contributions, and also facilitate the use of GitHub.
 
-You will provide two global configurations to the system with the following commands (in a bash terminal):
+You will provide two global configurations to the system with the following commands (in a bash terminal. In Windows, use the Git Bash terminal):
 
 *(Adjust the following commands to your case)*
 ```
@@ -51,13 +54,12 @@ $ git config user.email
 ruifigueira@isa.ulisboa.pt
 ```
 
-## Create a local repository
+## 2. Create a local repository
 
 Let's imagine our first data science project. It will be a simple project, with the following four files, inside the directory `my-first-project`:
 
 ```
 /my-first-project
-    README.md
     temp-data.csv
     temp-average.py
     temp-doc.txt
@@ -78,7 +80,6 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        README.md
         temp-average.py
         temp-data.csv
         temp-doc.txt
@@ -91,7 +92,7 @@ Now, the result of `git status` is different, and provides information about the
 
 In this case, no file is tracked yet. Let's see how to manage this the next step.
 
-## The steps of git
+## 3. The steps of git
 
 The use of git implies three important steps of version control:
 - ``git add`` - adds changed files to version control tracking.
@@ -100,7 +101,6 @@ The use of git implies three important steps of version control:
 
 We can add the files in our directory to the tracking system, i.e., **stage** the files:
 ```
-$ git add README.md
 $ git add temp-data.csv
 $ git add temp-average.py
 $ git add temp-doc.txt
@@ -116,7 +116,6 @@ No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   document.csv
         new file:   temp-average.py
         new file:   temp-data.csv
         new file:   temp-doc.txt
@@ -126,7 +125,6 @@ The next step is to commit the files. This will create a new version of the repo
 $ git commit * -m "initial commit"
 [main (root-commit) 4498b16] initial commit
  4 files changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 document.csv
  create mode 100644 temp-average.py
  create mode 100644 temp-data.csv
  create mode 100644 temp-doc.txt
@@ -135,9 +133,10 @@ Read the response. It indicates that the commit was done to the **main** branch,
 
 The next step is to `push` to an online repository or a server. But we will do this later, with a repository first created online and copied to our system.
 
-## Create a repository in GitHub
+## 4. Create a repository in GitHub
 
-We are going to create a repository in GitHub, creating a fork of an existing repository. Login to GitHub, go to [https://github.com/isa-ulisboa/greends-fads-first-project](https://github.com/isa-ulisboa/greends-fads-first-project) and fork the repository. The fork of this repository will be added to your account.
+We are going to create a repository in GitHub, creating a fork of an existing repository. Login to GitHub, go to [https://github.com/isa-ulisboa/greends-fads-first-project](https://github.com/isa-ulisboa/greends-fads-first-project) and fork the repository. The fork of this repository will be added to your account. This new repository in your GitHub account will be in the URL 
+`https://github.com/<YOUR GITHUB USERNAME>/greends-fads-first-project`
 
 After this, we can copy the repository to your local system, doing `clone`. 
 First, lets choose the directory to where we want to clone the repository. In this case, it should be one level up to the directory *my-first-project* we created before:
@@ -150,13 +149,14 @@ $ cd ..
 $ pwd
 /Users/rfigueira
 ```
-Go to GitHub and copy the link to clone the *greends-fads-first-project* we forked, and run in the terminal:
+Go to GitHub and copy the link to clone the *greends-fads-first-project* you forked to your account, and run in the terminal (*replace the in the URL address your username*):
 ```
-$ git clone https://github.com/isa-ulisboa/greends-fads-first-project.git
+$ git clone https://github.com/<YOUR GITHUB USERNAME>/greends-fads-first-project.git
 ```
+
 In your system, a new directory named *greends-fads-first-project* will be created.
 
-## Update your repository and push to GitHub
+## 5. Update your repository and push to GitHub
 
 We will make updates to the repository we cloned and then push them to the original remote repository.
 
@@ -167,32 +167,36 @@ $ cd greends-fads-first-project
 $ pwd
 /Users/rfigueira/greends-fads-first-project
 
-$ cp ../my-first-project/* .
+$ cp ../temp-* .
 
 $ ls
-README.md	temp-average.py	temp-data.csv	temp-doc.txt
+README.md		quote_with_typos.md	temp-data.csv
+original_quote.md	temp-average.py		temp-doc.txt
 
 $ git status
 On branch main
-
-No commits yet
+Your branch is up to date with 'origin/main'.
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        README.md
-        temp-average.py
-        temp-data.csv
-        temp-doc.txt
+
+	temp-average.py
+	temp-data.csv
+	temp-doc.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-**Questions / Tasks**
-
-- Can you explain the copy command used above?
-
-- Can you explain why, in this case, we did not have to do `git init`?
-
-- Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+> **Questions / Tasks**
+>
+> Open the file `temp-doc.txt` that is inside the  folder greends-fads-first-project, with VS Code, or your text editor, and copy and answer the following questions: 
+>
+> 5.1. Can you explain the copy (`cp ../temp-* .`) command used above?
+>
+> 5.2. Can you explain why, in this case, we did not have to do `git init`?
+>
+> 5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+>
+> Don't forget to save the file.
 
 After this, the git status should give the following status:
 ```
@@ -207,11 +211,11 @@ Now, we can push our changes to the original repository. The generic command has
 ```
 $ git push origin main
 ```
-The terminal will ask for your GitHub username and password. In this case, the password is your Personal Access Token that you should create at your GitHub account at [https://github.com/settings/tokens](https://github.com/settings/tokens).
+The terminal will ask for your GitHub username and password. In this case, the password is your Personal Access Token that you should create at your GitHub account at [https://github.com/settings/tokens](https://github.com/settings/tokens). You can also use VS Code to push your code to GitHub. 
 
 After the `push` command completes, go to your repository in the browser and confirm the changes.
 
-## Update the local repository with pull
+## 6. Update the local repository with pull
 
 If you are collaborating with others, there will be changes in the online repository that we want to bring to your local repository. To do this, we use the `pull` command:
 ```
@@ -220,7 +224,11 @@ Already up to date.
 ```
 The response indicates that no changes occurred on the online repository in relation to the last push.
 
-## Pull request the fork to the original repository
+> ## 7. Submit your update repository to review
+>
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 2 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=465359). Do this only after you push your local repository to the remote GitHub repository. 
+
+## 8. Pull request the fork to the original repository
 
 Finally, we want to submit our changes in the fork to the original repository. This can be done at the repository's page at GitHub.
 
@@ -232,7 +240,7 @@ In this exercise, we learned the very basics to use git and GitHub:
 - config git
 - use of `git status`
 - create a new repository with `git init`
-- the steps to update a repository: `add`, `commit`, `push`
+- the steps to update a repository: `git add`, `git commit`, `git push`
 - create or fork a repository in GitHub
 - `clone` a  repository
 - update the local repository with `pull`

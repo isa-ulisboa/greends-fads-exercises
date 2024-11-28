@@ -5,7 +5,8 @@
 This is an exploratory exercise, which should contribute to your portfolio of tools
 for Data Science.
 
-> An exercise submission via Moodle is required once completed. You should submit a markdown file with your responses. The deadline for submissions is **15th November 2024**.
+> An exercise submission via Moodle is required once completed. You should submit 
+a markdown file with your responses. The deadline for submissions is **15th November 2024**.
 
 ## Introduction
 

@@ -10,23 +10,25 @@ themselves, based on a measure of distance and strategy of clustering - **cluste
 - reduce the dimensionality of the dataset - reduce the number of variables - 
 keeping the common variance between variables - **dimensionality reduction**
 
+> An exercise submission via Moodle is required once completed. You should submit 
+a markdown file with your responses. The deadline for submissions is **06th December 2024**.
 
 ## Description of the exercise
 
 In this exercise you will do in Jupyter Notebook two analysis of unsupervised
 learning. The goal is to provide a very general overview of the steps involved 
 in the analysis, without the need to understand all the details. The learning
-of the methods will be done in the Machine Leaning course, latter in the master
+of the methods will be done in the Machine Leaning course, later in the master
 programme. However, you should be able by know to understand the code in python
 and do different attempts with the parameters of the algorithms, to check different
 outputs.
 
 If you have troubles setting your environment or starting Jupyter, check the FADS
-Exercise 05 that explains how to get started.
+Exercise 06 that explains how to get started.
 
 ## 1. Run a cluster analysis 
 
-You can run the notebook `031-cluster-example.ipynb` in your environment, or 
+You can run the notebook [`031-cluster-example.ipynb`](https://github.com/isa-ulisboa/greends-fads-jupyter/blob/main/example03-cluster/031-cluster-example.ipynb) in your environment, or 
 in Google Colab. In each case, you should provide the environment with the 
 necessary data file.
 
@@ -46,7 +48,7 @@ you can always install it from the notebook creating a new cell and doing
 
 ## 2. Run a dimensionality reduction analysis
 
-This second notebook `032-pca-example.ipynb` will allow to run a PCA. 
+This second notebook [`032-pca-example.ipynb`](https://github.com/isa-ulisboa/greends-fads-jupyter/blob/main/example03-cluster/032-pca-example.ipynb) will allow to run a PCA. 
 The notebook is a followup of the previous notebook, and is also available 
 from https://github.com/isa-ulisboa/greends-fads-jupyter/tree/main/example03-cluster. 
 It will use the same data file.
@@ -56,6 +58,8 @@ the cluster analysis. By doing this, we will reduce the noise of the data, and
 also eliminate redundant variables, i.e., correlated variables that structurally  
 contain the same information. 
 
+## 3. Submit notebooks
+> Upload both jupyter notebooks with results to this exercise to Moodle's [Exercise 9 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=482290).
 
 
 

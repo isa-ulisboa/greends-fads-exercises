@@ -4,7 +4,7 @@
 
 This is a learning/reading exercise, with several tasks. You should repeat and run all the examples given in your system, **adapted to your case**, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **4th October 2024**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **3rd October 2025**.
 
 ## Conventions of this document
 
@@ -55,20 +55,21 @@ ruifigueira@isa.ulisboa.pt
 
 ## 2. Create a local repository
 
-Let's imagine our first data science project. It will be a simple project, with the following four files, inside the directory `my-first-project`:
+Let's imagine our first data science project. It will be a simple project, with the following three files, inside the directory `my-first-project`:
 
 ```
 /my-first-project
-    temp-data.csv
-    temp-average.py
-    temp-doc.txt
+├── temp-data.csv
+├── temp-average.py
+└── temp-doc.txt
 ```
-Create the directory using `mkdir` and files using `touch` in your system, using a bash terminal. Then, change the working directory to *my-first-project*, using `cd`. In the terminal, we can check if this directory is a git repository, with the `git status` command:
+Create the directory using `mkdir` and files using `touch` in your system (remember 
+exercise 1), using a bash terminal. Then, change the working directory to *my-first-project*, using `cd`. In the terminal, we can check if this directory is a git repository, with the `git status` command:
 ````
 $ git status
 fatal: not a git repository (or any of the parent directories): .git
 ````
-The message indicates it is not a git repository, because it lacks the hidden directory `.git`. It is inside this directory that **git** manages all that is needed to do the versioning. Therefore, we need to inform git that this directory is a repository to be managed with versioning. For that, we run `git init`
+The message indicates it is not a git repository, because it lacks the hidden directory `.git`. It is inside this directory that **git** manages all that is needed to do the versioning. Therefore, we need to inform git that this directory is a repository to be managed with versioning. For that, we run `git init`, and then `git status`.
 ````
 $ git init
 
@@ -104,7 +105,8 @@ $ git add temp-data.csv
 $ git add temp-average.py
 $ git add temp-doc.txt
 ```
-We could have done the `git add` of all files at once, if we did `git add .` In the case you wrongly added a file to the repository, you can undo the `git add` using `git reset <file>`, or using `git rm --cached <file>`.
+We could have done the `git add` of all files at once, if we did `git add .` In the case you wrongly added a file to the repository, you can undo the `git add` using `git reset <file>`, or using `git rm --cached <file>`, where `<file>` is the name of the file
+to remove from the repository.
 
 Check the current status:
 ```
@@ -137,7 +139,8 @@ The next step is to `push` to an online repository or a server. But we will do t
 We are going to create a repository in GitHub, creating a fork of an existing repository. Login to GitHub, go to [https://github.com/isa-ulisboa/greends-fads-first-project](https://github.com/isa-ulisboa/greends-fads-first-project) and fork the repository. The fork of this repository will be added to your account. This new repository in your GitHub account will be in the URL 
 `https://github.com/<YOUR GITHUB USERNAME>/greends-fads-first-project`
 
-After this, we can copy the repository to your local system, doing `clone`. 
+After this, we can copy the repository to your local system, doing `clone` in the 
+terminal.  
 First, lets choose the directory to where we want to clone the repository. In this case, it should be one level up to the directory *my-first-project* we created before:
 ```
 $ pwd

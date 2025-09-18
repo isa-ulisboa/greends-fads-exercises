@@ -127,7 +127,7 @@ $ ls -lh
 $ ls -lh Documents
 $ ls -lisa
 ```
-The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents directory, which is a subdirectory of the current directory (adjust the name of the directory to your particular case). The last command will list all files, including the hidden files, which filenames start with a point (.)
+The first uses the parameter h (for human) to indicate the size of files in a human-friendly format. The second will show all the files inside Documents directory, which is a subdirectory of the current directory (adjust the name of the directory to your particular case). The last command will list all files, including the hidden files, which are filenames start with a point (.)
 
 ### **C**hange the current Working **D**irectory (`cd`)
 
@@ -141,7 +141,7 @@ Confirm that the path changes, with `pwd` for bash or `cd` for CMD.
 $ pwd
 /Users/rfigueira/Documents
 ```
-If we want to go one level up in the directory tree, we can use `cd ..`, where the two points indicate one level up:
+If we want to go one level up in the directory tree, we can use `cd ..`, where the two points indicate one level up. Notice the space beetween `cd` and the points:
 ```
 $ cd ..
 

@@ -4,7 +4,7 @@
 
 This is a reading exercise, with one task in the end.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **11th October 2024**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **17th October 2025**.
 
 ## Conventions of this document
 

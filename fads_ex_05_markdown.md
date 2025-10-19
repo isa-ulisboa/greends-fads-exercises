@@ -5,7 +5,7 @@
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **15th October 2024**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **7th November 2025**.
 
 ## Conventions of this document
 
@@ -21,13 +21,13 @@ subtitles, ordered and unordered lists, bold and italic type faces, tables, etc.
 The syntax of Markdown is very simple and easy to learn and use. It will also speed 
 up your workflow.
 
-Documents writen in Markdown normally have the extension `.md`, which facilitates 
+Documents written in Markdown normally have the extension `.md`, which facilitates 
 applications to identify its format. Most text editors - Notepad++, Atom, 
-Visual Studio Code, Sublime Text - have plugins to preview Markdown formated 
+Visual Studio Code, Sublime Text - have plugins to preview Markdown formatted 
 text, or to export to other file formats as HTML or pdf.
 
 The goal of this exercise is to create a dummy plain text document in Markdown,
-to demonstrate the different formating syntax.
+to demonstrate the different formatting syntax.
 
 ## 1. Prepare your environment
 For this exercise, you can use *Visual Studio Code*. But lets start by creating
@@ -75,8 +75,8 @@ defines the level of the title.
 
 ## 3. Create emphasis
 Add italics and bold faces to the file.
-You can use **bold** type face or *italic* to give empahsis to your text. This 
-is also very simple. To format with bold, use two asterists `*` to mark the start
+You can use **bold** type face or *italic* to give emphasis to your text. This 
+is also very simple. To format with bold, use two asterisks `*` to mark the start
 and end of the bold text:
 ```
 The following four words **are in bold typeface**, but the rest are not.
@@ -118,7 +118,7 @@ And, if the list in not ordered (with bullets), the use a slash `-`
 - Item two
 - Item three
 
-## 5. Addind code
+## 5. Adding code
 Add code to the file. Sometimes, it is good to highlight code, so that the reader understands that it 
 should be written as it is shown in the terminal or program. The code can be 
 highlighted in line with the text:
@@ -181,8 +181,8 @@ There are many online tools to convert CSV files to Markdown and vice-versa.
 
 Add this markdown file to a new repository in GitHub. See how with the exercise 4 done before.
 
-## 9. Submit your update repository to https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468940
-> Submit the URL of your forked GitHub repository to Moodle at [Exercise 5 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=468943). Do this only after you push your local repository to the remote GitHub repository. 
+## 9. Submit your update repository to https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=538114
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 5 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=538114). Do this only after you push your local repository to the remote GitHub repository. 
 
 ## 10. Explore more with a cheat sheet
 To check more options, go online and check a [cheat sheet](https://www.markdownguide.org/cheat-sheet/).

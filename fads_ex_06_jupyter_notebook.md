@@ -154,7 +154,7 @@ You can run the example also in Google Colab.
 3. Run the notebook cells, as you did in your computer.
 
 ## 5. Submit your update repository
-> Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=476839).
+> Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538116).
 
 
 ## Wrap up

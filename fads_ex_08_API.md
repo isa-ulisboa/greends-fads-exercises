@@ -45,8 +45,8 @@ about an API availability (e.g. Home --> Data --> API)
 | GBIF | https://www.gbif.org/ |   |   |   |   |
 | Eurostat | https://ec.europa.eu/eurostat/ |   |   |   |   |
 | INE | https://www.ine.pt/ |   |   |   |   |
-| Climate Data Store | https://cds.climate.copernicus.eu/cdsapp#!/home |   |   |   |   |
-| Copernicus Open Access Hub | https://scihub.copernicus.eu/ |   |   |   |   |
+| Climate Data Store | https://cds.climate.copernicus.eu/ |   |   |   |   |
+| Copernicus Data Space Ecosystem| https://dataspace.copernicus.eu/ |   |   |   |   |
 | WMO | https://worldweather.wmo.int/en/home.html |   |   |   |   |
 | Agri4Cast | https://agri4cast.jrc.ec.europa.eu/DataPortal/ |   |   |   |   |
 | European Environment Agency | https://www.eea.europa.eu/ |   |   |   |   |
@@ -62,7 +62,7 @@ services (when appropriate):
 - UN partner organisations: http://data.un.org/Partners.aspx 
 - FAO (several databases) - https://www.fao.org/statistics/databases/en/ 
 - FAOSTAT - https://www.fao.org/faostat/en/#data 
-- Copernicus Open Access Hub - Satellite data - https://scihub.copernicus.eu/ 
+- Copernicus Data Space Ecosystem - Satellite data - https://dataspace.copernicus.eu/ 
 - European data - https://data.europa.eu/en 
 - US Open Data - https://data.gov/
 - Dados abertos da administração pública - Portugal - https://dados.gov.pt/pt/
@@ -72,13 +72,9 @@ services (when appropriate):
 
 ## 2. Use web scraping
 
-Many times, data is visually available in the web page, but no service is provided to 
-download data. This does not mean that you have to obtain data manually, via a 
-copy-paste approach, also because many times this would require a large effort.
+Many times, data is visually available in the web page, but no service is provided to download data. This does not mean that you have to obtain data manually, via a copy-paste approach, also because many times this would require a large effort.
 
-Web scraping is the implementation of automatic scripts to extract data from 
-websites. If you want to see an excellent article about how to do it with python, 
-check [this example](https://realpython.com/python-web-scraping-practical-introduction/#extract-text-from-html-with-string-methods).
+Web scraping is the implementation of automatic scripts to extract data from websites. If you want to see an excellent article about how to do it with python, check [this example](https://realpython.com/python-web-scraping-practical-introduction/#extract-text-from-html-with-string-methods).
 
 1. Develop a web scraping exercise
 
@@ -86,7 +82,7 @@ The QUALAR (https://qualar.apambiente.pt/) is a web platform of APA, the Portugu
 
 However, it is possible to hack the source code of the webpage to identify that there is an implemented API, and that it can be used to facilitate efficient download of data. 
 
-In Jupyter Notebook, run the notebook [FADS Example02-api](https://github.com/isa-ulisboa/greends-fads-jupyter/tree/main/example02-apis), that can be downloaded from [here](https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example02-apis/example-api.ipynb) (do ***Save as*** in your browser).
+In Jupyter Notebook, run the notebook FADS [example-api.ipynb](https://github.com/isa-ulisboa/greends-fads-jupyter/tree/main/example02-apis), that can be downloaded from [here](https://raw.githubusercontent.com/isa-ulisboa/greends-fads-jupyter/main/example02-apis/example-api.ipynb) (do ***Save as*** in your browser).
 
 When you complete the exercise, answer/discuss the following questions:
 - How can I detect that a web site has hidden data?

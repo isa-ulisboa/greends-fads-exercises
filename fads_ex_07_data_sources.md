@@ -36,10 +36,11 @@ To search for available datasets, you can use any online data catalogue, includi
 - UN partner organisations: http://data.un.org/Partners.aspx 
 - FAO (several databases) - https://www.fao.org/statistics/databases/en/ 
 - FAOSTAT - https://www.fao.org/faostat/en/#data 
-- Copernicus Open Access Hub - Satellite data - https://scihub.copernicus.eu/ 
+- Copernicus Data Space Ecosystem - Satellite data - https://dataspace.copernicus.eu/ 
 - European data - https://data.europa.eu/en 
 - US Open Data - https://data.gov/
 - Dados abertos da administração pública - Portugal - https://dados.gov.pt/pt/
+- Lisboa Aberta - https://lisboaaberta.cm-lisboa.pt/index.php/pt/
 - Data Portals - http://datacatalogs.org/
 - Kaggle - online community - find and publish data sets - https://www.kaggle.com/   
 - Google Data Search - https://datasetsearch.research.google.com/ 
@@ -54,12 +55,9 @@ To organise your catalogue, you can use any tool (e.g. your bibliographic data m
 - existence of an API
 - number of stars in the 5 Star Open Data classification
 
-If possible, verify that you can download the data. That will help to verify 
-the level of data openness (the number of stars).
+If possible, verify that you can download the data. That will help to verify the level of data openness (the number of stars).
 
-This catalogue will be open for future additions, but, at this stage, you should
-identify at least ten datasets that you consider important for your domain of 
-interest.
+This catalogue will be open for future additions, but, at this stage, you should identify at least ten datasets that you consider important for your domain of interest.
 
 ## Wrap up
 In this exercise, you learned about finding data sources/datasets online:
@@ -68,12 +66,3 @@ In this exercise, you learned about finding data sources/datasets online:
 - dataset documentation
 - data formats
 - data access
-
-
-
-
-
-
-
-
-

@@ -6,7 +6,7 @@ This is an exploratory exercise, which should contribute to your portfolio of to
 for Data Science.
 
 > An exercise submission via Moodle is required once completed. You should submit 
-a markdown file with your responses. The deadline for submissions is **15th November 2024**.
+a markdown file with your responses. The deadline for submissions is **21th November 2025**.
 
 ## Introduction
 
@@ -104,7 +104,7 @@ Make a plan to scrap the information from this site:
 Add these responses to your markdown report.
 
 ## 3. Submit your updated table
-> Upload the table in markdown format that you updated in part 1 of this exercise to Moodle's [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=477245).
+> Upload the table in markdown format that you updated in part 1 of this exercise to Moodle's [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538117).
 
 ## Wrap up
 In this exercise, you learned about obtaining data from online sources in an automatic way:

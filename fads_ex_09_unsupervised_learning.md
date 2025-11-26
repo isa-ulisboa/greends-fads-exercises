@@ -2,6 +2,14 @@
 
 # Exercise 9 - Unsupervised Learning
 
+This is an exploratory exercise, which should contribute to your portfolio of tools
+for Data Science.
+
+> An exercise submission via Moodle is required once completed. You should submit 
+a markdown file with your responses. The deadline for submissions is **12th December 2025**.
+
+## Introduction
+
 Unsupervised Learning is a class of algorithms to be applied to data to which we 
 do not know the expected output - data records do not contain a *label*. Two main 
 types of analysis can be applied to these datasets:
@@ -9,9 +17,6 @@ types of analysis can be applied to these datasets:
 themselves, based on a measure of distance and strategy of clustering - **clustering**
 - reduce the dimensionality of the dataset - reduce the number of variables - 
 keeping the common variance between variables - **dimensionality reduction**
-
-> An exercise submission via Moodle is required once completed. You should submit 
-a markdown file with your responses. The deadline for submissions is **06th December 2024**.
 
 ## Description of the exercise
 
@@ -59,7 +64,7 @@ also eliminate redundant variables, i.e., correlated variables that structurally
 contain the same information. 
 
 ## 3. Submit notebooks
-> Upload both jupyter notebooks with results to this exercise to Moodle's [Exercise 9 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=482290).
+> Upload both jupyter notebooks with results to this exercise to Moodle's [Exercise 9 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538118).
 
 
 

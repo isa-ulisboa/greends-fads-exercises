@@ -31,7 +31,7 @@ Because of this, you should be able to execute some basic operations using the C
 One of the reasons you should use the terminal is because it will speed up greatly your workflow in data science projects. You might find strange this statement, considering that in the terminal you need to write your commands by hand. And some of these seem endless...
 
 However, two practices speed up the use of the terminal, and sometimes even make it easier to use:
-- pressing the ***TAB key*** after writing a few letters of a command or a file will allow the system to autocomplete or show options of what you are trying to write
+- pressing the ***TAB key*** after writing a few letters of a command or a file name will allow the system to autocomplete or show options of what you are trying to write
 - you can use the ***history*** to reuse a command written before. You just need to press the ***upper arrow*** in your keyboard until you find what you need.
 
 Another reason to use the terminal, particularly in data science projects, is that you have an higher power of parameterization in running scripts. Many scripts can only be run from the command line, because no graphic interfaces are created. Also programmers make a lot of customizations available through parameters in the command line, but they do not translate these into graphic interfaces. Even if you're using a graphic interface as Jupyter Notebook or R-Studio to run your data science scripts, command are essentially run as it would be in the command line.
@@ -76,9 +76,11 @@ We will show the use of the most useful commands. Remember that all commands in 
 To show our current directory, in which we are positioned now, run `pwd`
 ```
 $ pwd
-/home/rfigueira
+/Users/rfigueira
 ```
-or in CMD, `cd` for **c**hange **d**irectory, without any parameters 
+This output was created in macOS. In linux, the output would be `/home/rfigueira`.
+
+In CMD, `cd` for **c**hange **d**irectory, without any parameters 
 ```
 $ cd
 C:\Users\rfigueira
@@ -158,7 +160,8 @@ $ cd .
 $ pwd
 /Users/rfigueira
 ```
-And if we do `cd ../..`, or `cd ..\..` (in CMD, with backward slashes), then the cursor will place us two levels up
+And if we do `cd ../..`, or `cd ..\..` (in CMD, with backward slashes), then the cursor will place us two levels up.
+Check this by changing directory to *Documents*, as in the previous example. Then execute:
 ```
 $ pwd
 /Users/rfigueira/Documents

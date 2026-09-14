@@ -4,6 +4,8 @@
 
 This is a learning/reading exercise, with several tasks. You should repeat all the examples given in your system, and check that you obtain equivalent results.
 
+> This does not have a result to be submitted via Moodle.
+
 ## Conventions of this document
 
 In all commands, `$` indicates that it should be run at the operating system terminal. However, `$` is not part of the command and should not be included in the instruction.
@@ -340,7 +342,7 @@ This can be done with the `touch`command:
 ```
 $ touch README.md
 ```
-In CMD, there is no equivalent. A similar option will be to execute Notepad
+In CMD, there is no equivalent. A similar option will be to execute Notepad:
 ```
 $ notepad README.md
 ```

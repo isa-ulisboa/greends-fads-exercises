@@ -4,7 +4,7 @@
 
 This is a learning/reading exercise, with several tasks. You should repeat and run all the examples given in your system, **adapted to your case**, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **3rd October 2025**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **2nd October 2026**.
 
 ## Conventions of this document
 
@@ -228,7 +228,7 @@ The response indicates that no changes occurred on the online repository in rela
 
 > ## 7. Submit your update repository to review
 >
-> Submit the URL of your forked GitHub repository to Moodle at [Exercise 2 submission](https://elearning.ulisboa.pt/mod/questionnaire/view.php?id=465359). Do this only after you push your local repository to the remote GitHub repository. 
+> Submit the URL of your forked GitHub repository to Moodle at [Exercise 2 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=630229). Do this only after you push your local repository to the remote GitHub repository. 
 
 ## 8. Pull request the fork to the original repository
 

@@ -104,7 +104,7 @@ If you want to check a more complex data project structure, for inspiration, che
 
 ## Task 1. Create project structure
 Create a new structure for your data project as a template, with the necessary directories:
-- use the proposed layout for the structure in the blog post [Best Practices For Data Science Project Workflows and File Organizations](https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations)
+- use the proposed layout for the structure in the blog post [Best Practices For Data Science Project Workflows and File Organizations](https://web.archive.org/web/20251125222007/https://neptune.ai/blog/best-practices-for-data-science-project-workflows-and-file-organizations)
 - create using the shell terminal / command line
    - do not forget to include necessary **README.md** files, because empty directories are not added to the repository
 

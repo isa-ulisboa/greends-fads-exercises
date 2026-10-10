@@ -5,7 +5,7 @@
 This is a learning/reading exercise, with several tasks. You should repeat all 
 the examples given in your system, and check that you obtain equivalent results.
 
-> An exercise submission via Moodle is required once completed. The deadline for submissions is **7th November 2025**.
+> An exercise submission via Moodle is required once completed. The deadline for submissions is **30th October 2026**.
 
 
 ## Introduction
@@ -154,7 +154,7 @@ You can run the example also in Google Colab.
 3. Run the notebook cells, as you did in your computer.
 
 ## 5. Submit your update repository
-> Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538116).
+> Share the Google colab and submit the link to Moodle at [Exercise 6 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=630233).
 
 
 ## Wrap up

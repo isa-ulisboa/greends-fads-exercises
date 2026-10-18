@@ -5,6 +5,8 @@
 This is an exploratory exercise, which should contribute to your portfolio of tools
 for Data Science.
 
+> This exercise does not require a submission via Moodle.
+
 ## Introduction
 
 The availability of data online is increasing every day. This can be in the form of:

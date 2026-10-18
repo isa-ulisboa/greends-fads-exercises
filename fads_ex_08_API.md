@@ -6,7 +6,7 @@ This is an exploratory exercise, which should contribute to your portfolio of to
 for Data Science.
 
 > An exercise submission via Moodle is required once completed. You should submit 
-a markdown file with your responses. The deadline for submissions is **21th November 2025**.
+a markdown file with your responses. The deadline for submissions is **6th November 2026**.
 
 ## Introduction
 
@@ -15,7 +15,7 @@ human can be only a fraction of all the data available. Even when data is not
 prepared to be served as a web service, it is possible to implement automatic
 scripts (web scraping) that speed you data collection for reuse. But never forget 
 the discussion about licencing that we had on class 08 
-([slides](https://elearning.ulisboa.pt/mod/page/view.php?id=468437)).
+([slides](https://elearning.ulisboa.pt/mod/page/view.php?id=630247)).
 
 In this exercise, we will learn how to get data available online. We will practice:
 - to identify if data is provided by a web service (an API)
@@ -104,7 +104,7 @@ Make a plan to scrap the information from this site:
 Add these responses to your markdown report.
 
 ## 3. Submit your updated table
-> Upload the table in markdown format that you updated in part 1 of this exercise to Moodle's [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538117).
+> Upload the table in markdown format that you updated in part 1 of this exercise to Moodle's [Exercise 8 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=630234).
 
 ## Wrap up
 In this exercise, you learned about obtaining data from online sources in an automatic way:

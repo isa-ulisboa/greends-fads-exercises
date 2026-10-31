@@ -40,16 +40,16 @@ about an API availability (e.g. Home --> Data --> API)
 - an example URL that returns data provided by the API
 - the format of data (json, xml, csv, several, ...)
 
-| Platform | URL | Path to API information |Documentation URL | API URL | Data format |
-|------|-----|-------------------------|------------------|---------|-------------|
-| GBIF | https://www.gbif.org/ |   |   |   |   |
-| Eurostat | https://ec.europa.eu/eurostat/ |   |   |   |   |
-| INE | https://www.ine.pt/ |   |   |   |   |
-| Climate Data Store | https://cds.climate.copernicus.eu/ |   |   |   |   |
-| Copernicus Data Space Ecosystem| https://dataspace.copernicus.eu/ |   |   |   |   |
-| WMO | https://worldweather.wmo.int/en/home.html |   |   |   |   |
-| Agri4Cast | https://agri4cast.jrc.ec.europa.eu/DataPortal/ |   |   |   |   |
-| European Environment Agency | https://www.eea.europa.eu/ |   |   |   |   |
+| Platform | URL | Path to API information | Documentation URL | API URL | Data format |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GBIF** | [gbif.org](https://www.gbif.org/) | Home --> Developer --> Summary | [GBIF OpenAPI Docs](https://techdocs.gbif.org/en/openapi/) | `https://api.gbif.org/` | json |
+| **Eurostat** | [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/) | Home --> Support --> Web Services / API | [Eurostat User Guide](https://ec.europa.eu/eurostat/web/user-guides/data) | `https://ec.europa.eu/eurostat/api/` | json, xml, sdmx |
+| **INE** | [ine.pt](https://www.ine.pt/) | Home --> Serviços --> API Catálogo de Indicadores | [INE API Catálogo](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_api_catalogo) | `https://www.ine.pt/ine/xml_indic.jsp?opc=1&varcd={code}&lang=PT` | xml, json |
+| **Climate Data Store** | [cds.climate.copernicus.eu](https://cds.climate.copernicus.eu/) | Home --> Download data / API guide | [CDS API How-to](https://cds.climate.copernicus.eu/how-to-api) | `https://cds.climate.copernicus.eu/api` | netcdf, grib, json |
+| **Copernicus Data Space Ecosystem** | [dataspace.copernicus.eu](https://dataspace.copernicus.eu/) | Home --> Analyse --> APIs | [CDSE API Documentation](https://documentation.dataspace.copernicus.eu/APIs.html) | `https://sh.dataspace.copernicus.eu/` | json, geojson, tiff |
+| **WMO** | [worldweather.wmo.int](https://worldweather.wmo.int/en/home.html) | Home --> Resources / Services | [WMO Homepage](https://worldweather.wmo.int/) | `https://worldweather.wmo.int/` | json, xml |
+| **Agri4Cast** | [agri4cast.jrc.ec.europa.eu](https://agri4cast.jrc.ec.europa.eu/DataPortal/) | Home --> Help / Data Portal Resources | [JRC Data Catalogue](https://data.jrc.ec.europa.eu/collection/agri4cast) | OGC SensorThings / JRC API endpoints | netcdf, csv, json |
+| **European Environment Agency** | [eea.europa.eu](https://www.eea.europa.eu/) | Home --> Data and maps --> APIs | [EEA Developer Docs](https://www.eea.europa.eu/) | EIONET / EEA REST Endpoints | json, csv, rdf, xml |
 
 Add this table to your markdown report to be submitted by the end of the exercise.
 

@@ -6,7 +6,7 @@ This is an exploratory exercise, which should contribute to your portfolio of to
 for Data Science.
 
 > An exercise submission via Moodle is required once completed. You should submit 
-a markdown file with your responses. The deadline for submissions is **12th December 2025**.
+a markdown file with your responses. The deadline for submissions is **11th December 2026**.
 
 ## Introduction
 
@@ -64,7 +64,7 @@ also eliminate redundant variables, i.e., correlated variables that structurally
 contain the same information. 
 
 ## 3. Submit notebooks
-> Upload both jupyter notebooks with results to this exercise to Moodle's [Exercise 9 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=538118).
+> Upload both jupyter notebooks with results to this exercise to Moodle's [Exercise 9 submission](https://elearning.ulisboa.pt/mod/assign/view.php?id=630235).
 
 
 
